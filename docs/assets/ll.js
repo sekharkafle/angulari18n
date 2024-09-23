@@ -34,6 +34,10 @@ function updatElement(element, text){
         element.setAttribute("translation-name", tss);
     }
 
+    function mouseleave(e){
+        e.srcElement.innerText = e.srcElement.getAttribute("translation-name");
+    }
+    
     function pp(e){
         //console.log('attr:', e.srcElement.getAttribute("translation-name"));
         //document.getElementById("orig_txt").innerText = "";
@@ -47,11 +51,14 @@ function updatElement(element, text){
                 ts = t.translation;
             }
         })
+        element.innerText = ts;
         document.getElementById("orig_txt").innerText = e.srcElement.getAttribute("translation-name") + " ";
         document.getElementById("trans_txt").value = ts;
         
     }
     element.onmouseover = (event) => {pp(event);};
+
+    element.onmouseleave = (event) => {mouseleave(event);};
 }
 
 function handleDoms(){
