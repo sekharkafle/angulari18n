@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4398863504443682316" datatype="html">
+        <source>Cart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">1,4</context>
+        </context-group>
+        <note priority="1" from="description">cart</note>
+      </trans-unit>
+      <trans-unit id="5639492566294542764" datatype="html">
+        <source>Shipping Prices</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <note priority="1" from="description">shipping_prices</note>
+      </trans-unit>
+      <trans-unit id="8778616811237742446" datatype="html">
+        <source> Name </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+        <note priority="1" from="description">shippingName</note>
+      </trans-unit>
+      <trans-unit id="3856251571490896487" datatype="html">
+        <source> Address </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+        <note priority="1" from="description">shippingAddress</note>
+      </trans-unit>
+      <trans-unit id="3280402370301505530" datatype="html">
+        <source>Purchase</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+        <note priority="1" from="description">purchase</note>
+      </trans-unit>
+      <trans-unit id="5167047587266870578" datatype="html">
+        <source>Notify Me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-alerts/product-alerts.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <note priority="1" from="description">notify</note>
+      </trans-unit>
+      <trans-unit id="3342433449995226607" datatype="html">
+        <source>Product Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+        <note priority="1" from="description">productdetails</note>
+      </trans-unit>
+      <trans-unit id="2149165958319691680" datatype="html">
+        <source>Buy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <note priority="1" from="description">buy</note>
+      </trans-unit>
+      <trans-unit id="6707361102856436710" datatype="html">
+        <source>Products</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-list/product-list.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+        <note priority="1" from="description">products</note>
+      </trans-unit>
+      <trans-unit id="6045033980459732148" datatype="html">
+        <source> Share </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-list/product-list.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+        <note priority="1" from="description">share</note>
+      </trans-unit>
+      <trans-unit id="5086728830977719897" datatype="html">
+        <source>My Store</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/top-bar/top-bar.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <note priority="1" from="description">my_store</note>
+      </trans-unit>
+      <trans-unit id="4776389683576645610" datatype="html">
+        <source>Checkout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/top-bar/top-bar.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <note priority="1" from="description">checkout</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
