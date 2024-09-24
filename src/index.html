@@ -11,15 +11,32 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-  </head>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
   <body>
-    <app-root></app-root>
+    <div id="my-popover" popover draggable>
+      <button class="close-btn" popovertarget="my-popover" popovertargetaction="hide">
+        <span aria-hidden=”true”>❌</span>
+      </button>
+      <p id="orig_txt"></p>
+      <p><label for="trans_txt">Enter Translation:</label></p>
+      <textarea id="trans_txt" name="trans_txt" rows="4" cols="20"></textarea>
+      <br>
+      <button id="ok_trans" popovertarget="my-popover" popovertargetaction="hide">OK</button>
+        
+    </div>
+
+    <dialog>
+      <p>This modal dialog has a groovy backdrop!</p>
+      <button autofocus>Close</button>
+    </dialog>
+    <app-root>
+      
+   
+     </app-root>
+    <script type="text/javascript" src="assets/ll.js">
+
+    </script>
   </body>
 </html>
-
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->
