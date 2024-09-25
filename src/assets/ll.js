@@ -45,6 +45,15 @@ function updatElement(element, text){
         const popover = document.getElementById("my-popover");
 
         popover.showPopover();
+        document.getElementById("ok_trans").onclick = (event) => {
+            const newTx = document.getElementById("trans_txt").value;
+            const origTxt = document.getElementById("orig_txt").innerText;
+            translations.translation.forEach(t=>{
+                if(origTxt === t.original){
+                    t.translation = newTx;
+                }
+            })
+        };
         let ts = "";
         translations.translation.forEach(t=>{
             if(e.srcElement.getAttribute("translation-name").trim() === t.original){
